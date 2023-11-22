@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">foreats</string>
+    <string name="namacustomer">Hai, Dewi</string>
+    <string name="template">Mau Buat Apa Hari Ini ?</string>
+    <string name="src">Search</string>
+    <string name="rekom">Rekomendasi</string>
+    <string name="penge">Pengetahuan</string>
+    <string name="semua">Semua</string>
+    <string name="promo">Promo</string>
+    <string name="pengetahuan">Pengetahuan</string>
+
+</resources>
