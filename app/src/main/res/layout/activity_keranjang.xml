@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ijo4"
+    tools:context=".Keranjang">
+
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/ijo4"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/tvPesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="23dp"
+        android:text="Pesanan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="26dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/putih"
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-10dp"
+        android:background="@color/white"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <ImageButton
+    android:id="@+id/btnKeranjang"
+    android:layout_width="136dp"
+    android:layout_height="49dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="86dp"
+    android:background="@color/white"
+    android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@drawable/keranjangku" />
+
+    <TextView
+        android:id="@+id/tvKeranjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="90dp"
+        android:text="Keranjangku" />
+
+    <ImageView
+        android:id="@+id/garis1"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="125dp"
+        android:background="@color/ijo4" />
+
+    <ImageButton
+        android:id="@+id/btnPesananku"
+        android:layout_width="126dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="86dp"
+        android:clickable="true"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@drawable/pesananku" />
+
+
+    <TextView
+        android:id="@+id/tvPesananku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="90dp"
+        android:text="Pesananku" />
+
+    <ImageView
+        android:id="@+id/garis2"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="125dp"
+        android:background="@color/d9" />
+
+    <ImageButton
+        android:id="@+id/btnRiwayat"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="7dp"
+        android:background="@color/white"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="82dp"
+        app:srcCompat="@drawable/riwayat" />
+
+
+    <TextView
+        android:id="@+id/tvRiwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="31dp"
+        android:text="Riwayat" />
+
+    <ImageView
+        android:id="@+id/garis3"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="22dp"
+        android:background="@color/d9" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/abu"
+        android:layout_width="336dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/jj"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <TextView
+        android:id="@+id/tvCabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/abu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="152dp"
+        android:text="Cabe Merah 250 Gram - Foreats"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="96dp"
+        android:layout_height="67dp"
+        android:layout_alignTop="@+id/abu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="45dp"
+        android:src="@drawable/rectangle_243" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/abu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@drawable/star_rating" />
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/abu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="58dp"
+        android:text="Rp31.800"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnPesanSekarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/abu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="81dp"
+        android:backgroundTint="@color/ijo4"
+        android:text="Pesan Sekarang" />
+
+
+
+
+</RelativeLayout>

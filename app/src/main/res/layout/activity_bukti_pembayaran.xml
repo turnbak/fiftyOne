@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jj"
+    tools:context=".buktiPembayaran">
+
+    <ImageView
+        android:id="@+id/ijo"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/ijo1" />
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="30dp"
+        android:text="Kembali"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/putih"
+        android:layout_width="326dp"
+        android:layout_height="589dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="35dp"
+        android:background="@color/white"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/putih"
+        android:layout_alignEnd="@+id/putih"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="93dp"
+        app:srcCompat="@drawable/bca_logo_bank_central_asia_2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="308dp"
+        android:layout_height="387dp"
+        android:layout_alignStart="@+id/putih"
+        android:layout_alignTop="@+id/putih"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="109dp"
+        app:srcCompat="@drawable/frame_22" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/rincian"
+        android:layout_width="327dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignStart="@+id/putih"
+        android:layout_alignEnd="@+id/putih"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/ss"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rincian"
+        android:layout_alignBottom="@+id/putih"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="20dp"
+        android:text="Total"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/uang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/rincian"
+        android:layout_alignBottom="@+id/putih"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="20dp"
+        android:text="Rp.34.300"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

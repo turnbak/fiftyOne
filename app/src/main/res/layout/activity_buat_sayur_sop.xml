@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuatSayurSop">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="115dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/pengetahuan"
+        android:layout_alignBottom="@+id/imageNama"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="-149dp"
+        app:srcCompat="@drawable/ic" />
+
+    <ImageView
+        android:id="@+id/imageNama"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="47dp"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageNama"
+        android:layout_alignTop="@+id/imageNama"
+        android:layout_alignEnd="@+id/imageNama"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="41dp"
+        android:layout_toStartOf="@+id/search"
+        android:backgroundTint="@color/background"
+        android:text="Bagaimana Cara Membuat Sayur Sop"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@+id/imageNama"
+        tools:layout_editor_absoluteX="270dp" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageNama"
+        android:layout_alignEnd="@+id/imageNama"
+        android:layout_alignBottom="@+id/imageNama"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="11dp"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/pengetahuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageNama"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:text="PENGETAHUAN"
+        android:textAlignment="center"
+        android:textColor="@color/ijo3"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="165dp"
+        android:layout_height="241dp"
+        android:layout_below="@+id/imageNama"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/background"/>
+
+    <TextView
+        android:id="@+id/bahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Bahan-bahan"
+        android:textAlignment="center"
+        android:textColor="@color/ijo1"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/urutan"
+        android:layout_width="150dp"
+        android:layout_height="209dp"
+        android:layout_below="@+id/bahan"
+        android:layout_alignStart="@+id/image1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/bahan"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="342dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/image1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="27dp"
+        android:background="@color/background" />
+
+    <TextView
+        android:id="@+id/tutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/image2"
+        android:layout_alignTop="@+id/image2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:text="TUTORIAL"
+        android:textAlignment="center"
+        android:textColor="@color/ijo3"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textTutor"
+        android:layout_width="321dp"
+        android:layout_height="256dp"
+        android:layout_below="@+id/tutor"
+        android:layout_alignStart="@+id/image2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:textSize="14sp"
+        android:text="@string/tutorial" />
+
+    <ImageView
+        android:id="@+id/navBar"
+        android:layout_width="387dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/image2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/ijo3" />
+
+    <ImageView
+        android:id="@+id/homeBar"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnHome"
+        android:layout_alignTop="@+id/btnHome"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="73dp"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnHome"
+        android:layout_alignBottom="@+id/btnHome"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="15dp"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnHome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/navBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/btnMarket"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/navBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/btnHome"
+        android:clickable="true" />
+    <ImageView
+        android:id="@+id/marketBar"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnMarket"
+        android:layout_alignTop="@+id/btnMarket"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/icon__1_" />
+
+    <TextView
+        android:id="@+id/market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnMarket"
+        android:layout_alignBottom="@+id/btnMarket"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="15dp"
+        android:text="Market"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnWallet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/navBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/btnProfile"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/walletBar"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnWallet"
+        android:layout_alignEnd="@+id/btnWallet"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="9dp"
+        app:srcCompat="@drawable/vector" />
+
+    <TextView
+        android:id="@+id/wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnWallet"
+        android:layout_alignBottom="@+id/btnWallet"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="15dp"
+        android:text="Wallet"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/navBar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnProfile"
+        android:layout_alignBottom="@+id/btnProfile"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="15dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileBar"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnProfile"
+        android:layout_alignEnd="@+id/btnProfile"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="9dp"
+        app:srcCompat="@drawable/vector__1_" />
+
+
+</RelativeLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".caraBayar">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="143dp"
+        android:text="Cara Bayar"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="70dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="27dp"
+        android:clickable="true"
+        android:contentDescription="@string/a3"
+        app:srcCompat="@drawable/forward" />
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="98dp"
+        android:text="Bank BCA Virtual Account"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="54dp"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/bca_logo_bank_central_asia_2" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/latar1"
+        android:layout_width="328dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="134dp"
+        android:background="@color/ijo1"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="148dp"
+        android:text="No. Rekening"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="165dp"
+        android:text="@string/titik"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="47dp"
+        android:clickable="true"
+        android:text="Salin"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="192dp"
+        android:text="Total Pembayaran"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="218dp"
+        android:text="Rp. 34.300"
+        android:textColor="@color/white" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/latar2"
+        android:layout_width="322dp"
+        android:layout_height="440dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="270dp"
+        android:background="@color/ijo1"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/btnLanjut"
+        android:layout_width="322dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/latar2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/ijo1"
+        android:clickable="true"
+        android:contentDescription="@string/a2"
+        app:shapeAppearanceOverlay="@style/roundview" />
+
+    <TextView
+        android:id="@+id/a8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnLanjut"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="154dp"
+        android:text="Lanjutkan"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/line1"
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:layout_alignStart="@+id/imageView15"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/line_6" />
+
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:layout_above="@+id/line3"
+        android:layout_alignStart="@+id/imageView15"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="41dp"
+        app:srcCompat="@drawable/line_6" />
+
+    <ImageView
+        android:id="@+id/line3"
+        android:layout_width="250dp"
+        android:layout_height="5dp"
+        android:layout_alignStart="@+id/imageView15"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="34dp"
+        app:srcCompat="@drawable/line_6" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="50dp"
+        android:layout_height="15dp"
+        android:layout_alignEnd="@+id/imageView15"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="52dp"
+        android:clickable="true"
+        android:contentDescription="@string/a4"
+        android:rotation="-91"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="280dp"
+        android:layout_height="409dp"
+        android:layout_alignStart="@+id/latar2"
+        android:layout_alignEnd="@+id/latar2"
+        android:layout_alignBottom="@+id/latar2"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="38dp"
+        app:srcCompat="@drawable/frame_1877" />
+
+
+</RelativeLayout>

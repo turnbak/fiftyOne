@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="360dp"
+        android:layout_height="595dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_149" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="120dp"
+        android:text="Hello"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="167dp" />
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="243dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/hello"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/teks"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/hello"
+        tools:layout_editor_absoluteX="75dp" />
+
+    <ImageView
+        android:id="@+id/imageNama"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/teks1"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/teks1"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageNama"
+        android:layout_alignTop="@+id/imageNama"
+        android:layout_alignEnd="@+id/imageNama"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/noWarna"
+        android:hint="Nama"
+        tools:layout_editor_absoluteX="270dp"
+        app:layout_constraintTop_toTopOf="@+id/imageNama" />
+
+    <ImageView
+        android:id="@+id/imageJenisKelamin"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit1"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageNama"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageNama"
+        android:layout_alignStart="@+id/imageJenisKelamin"
+        android:layout_alignEnd="@+id/imageJenisKelamin"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/noWarna"
+        android:hint="Jenis Kelamin"
+        app:layout_constraintTop_toBottomOf="@+id/edit1"
+        tools:layout_editor_absoluteX="270dp" />
+
+    <ImageView
+        android:id="@+id/imageEmail"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageJenisKelamin"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageEmail"
+        android:layout_alignStart="@+id/imageEmail"
+        android:layout_alignEnd="@+id/imageEmail"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/noWarna"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="270dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit2" />
+
+    <ImageView
+        android:id="@+id/imagePassword"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageEmail"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/rectangle_9" />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imagePassword"
+        android:layout_alignTop="@+id/imagePassword"
+        android:layout_alignEnd="@+id/imagePassword"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/noWarna"
+        android:hint="Password"
+        app:layout_constraintTop_toBottomOf="@+id/edit3"
+        tools:layout_editor_absoluteX="270dp" />
+
+    <ImageView
+        android:id="@+id/imageKomf"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imagePassword"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageKomf"
+        android:layout_alignTop="@+id/imageKomf"
+        android:layout_alignEnd="@+id/imageKomf"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/noWarna"
+        android:hint="Komfirmasi Password"
+        app:layout_constraintTop_toBottomOf="@+id/edit4"
+        tools:layout_editor_absoluteX="270dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="91dp"
+        android:backgroundTint="@color/ijo3"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="107dp"
+        android:text="Have an account? Login"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</RelativeLayout>

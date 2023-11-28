@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="lupa">Lupa Kata Sandi</string>
+    <string name="up">Update Komentar</string>
+    <string name="kirim">Kirim</string>
+    <string name="teks">Biarkan kami membantu Anda memulai perjalanan Anda</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="komfirm">Komfirmasi Password</string>
+    <string name="akun">Have an account? Login</string>
+    <string name="hai">Hai, Dewi Mau Buat Apa Hari ini?</string>
+    <string name="alamat">Perumahan Warga RT/RW 007/029 NO.90 Bogor, Jawa Barat.</string>
+    <string name="wortel">Wortel sumber vitamin, mineral, serat, dan antioksidan yang sangat baik.</string>
+    <string name="pengiriman">Pilih Pengiriman</string>
+    <string name="lihat">Lihat Semua Pilihan</string>
+    <string name="kode">Memiliki kode promo?</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tutorial">"Cuci bersih kentang, wortel, kol, daun bawang dan seledri. Pastikan kamu juga telah mengupas kulit kentang dan wortel sampai benar-benar bersih.
+Lalu, potong kentang dan wortel berukuran dadu. Iris juga kol, daun bawang, dan seledri sesuai selera.
+Kemudian, iris tipis-tipis bawang merah dan bawang putih, lalu tumis kedua jenis bawang tersebut hingga harum.
+Masukkan air ke dalam wajan atau panci berisi bawang tumis tadi dan didihkan.
+Setelah air mendidih, tambahkan potongan sayuran, makaroni, garam, lada, dan kaldu bubuk. Aduk sampai merata, lalu koreksi rasa."</string>
+    <string name="bahan">" 1 buah kentang
+1 buah wortel
+½ bagian kol
+100 gram makaroni
+2 batang daun bawang
+2 batang seledri
+6 siung bawang putih
+5 siung bawang merah
+1 sdt kaldu bubuk
+1 sdt lada
+Secukupnya garam
+1200 ml air
+1 sdm minyak untuk menumis"</string>
+    <string name="komentar">"Alhamdulillah sampai dengan selamat, cabenya dalam kondisi masih segar dan pengirimannya sangat cepat. by: tina"</string>
+    <string name="titik">---------------------------------------------</string>
+    <string name="a2">"petunjuk"</string>
+    <string name="a3">"back"</string>
+    <string name="a4">"pilihBank"</string>
+    <string name="textP">"
+Petunjuk TF mBanking
+
+1. Pilih m-Transfer > BCA dan PIN.
+2. Masukkan Nomor Virtual Account -------------- dan pilih Send.
+3. Pastikan Pesananmu, Total tagihan sudah benar dan Username -----. Jika sudah benar, pilih YA,
+4. Masukkan jumlah Transfer sesuai dengan total pembayaran dan masukkan PIN m-BCA anda dan pilih OKE.
+5. Jika muncul notifikasi “Transaksi Berhasil”. Simpan struk transaksi sebagai bukti pembayaran
+
+  ATM BCA"</string>
+</resources>
